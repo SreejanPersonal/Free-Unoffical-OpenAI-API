@@ -5,7 +5,7 @@ The GPT API Service, originally reverse-engineered by Mr Leader and further deve
 
 ## Base URL
 ```
-https://great-blondell-devsdocodeorg-cc6b3578.koyeb.app
+https://openai-devsdocode.up.railway.app
 ```
 
 ## Authentication
@@ -151,7 +151,7 @@ Get detailed information about the API service.
 import requests
 
 def send_non_streaming_request():
-    url = "https://great-blondell-devsdocodeorg-cc6b3578.koyeb.app/v1/chat/completions"
+    url = "https://openai-devsdocode.up.railway.app/v1/chat/completions"
     payload = {
         "messages": [{"role": "user", "content": "Hello!"}],
         "model": "gpt-4o-mini-2024-07-18",
@@ -167,7 +167,7 @@ def send_non_streaming_request():
 import requests
 
 def send_streaming_request():
-    url = "https://great-blondell-devsdocodeorg-cc6b3578.koyeb.app/v1/chat/completions"
+    url = "https://openai-devsdocode.up.railway.app/v1/chat/completions"
     payload = {
         "messages": [{"role": "user", "content": "Write a story"}],
         "model": "gpt-4o-mini-2024-07-18",
@@ -193,7 +193,7 @@ import base64
 import json
 
 def send_audio_request():
-    url = "https://great-blondell-devsdocodeorg-cc6b3578.koyeb.app/v1/chat/completions"
+    url = "https://openai-devsdocode.up.railway.app/v1/chat/completions"
     payload = {
         "messages": [{"role": "user", "content": "Tell me a joke"}],
         "model": "gpt-4o-audio-preview",
