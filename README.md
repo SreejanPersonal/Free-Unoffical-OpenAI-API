@@ -225,11 +225,11 @@ def send_audio_request():
 
 ## Rate Limits and Usage Guidelines
 
-- The service runs on Koyeb's free tier hosting
+- The service runs on Railway's free tier hosting
 - Please maintain reasonable request intervals
 
 ### Technical Details
-- Hosting: Koyeb Free Tier
+- Hosting: Railway Free Tier
 - Version: 1.0.0
 - Maintained by: DevsDoCode (Sreejan)
 
